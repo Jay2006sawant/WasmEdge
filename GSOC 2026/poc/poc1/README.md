@@ -32,3 +32,8 @@ python3 "poc/poc1/poc1_split_storage.py" \
 
 This is a prototype for architecture validation, not the final runtime result.
 
+## Limitation note
+
+This subset prototype uses fixed assumptions for old-model size comparison.
+Final measurements will use integrated runtime data in later milestones.
+
