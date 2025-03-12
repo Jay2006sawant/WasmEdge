@@ -140,6 +140,14 @@ From all 4 POCs:
 
 ---
 
+## Reproducibility note
+
+All POCs are runnable from repository sources with sample CSV inputs checked in
+under each `pocX/samples/` directory. Reported numbers are sample-run outputs and
+should be treated as prototype evidence, not final production benchmark claims.
+
+---
+
 ## One-paragraph mentor-facing summary
 
 I implemented a 4-stage POC chain to de-risk the instruction refactor before core changes. POC-0 established memory-overhead motivation with baseline estimates. POC-1 validated the split storage data model and roundtrip correctness for a subset. POC-2 validated migration safety by proving legacy and split decode parity from the same byte stream. POC-3 validated runtime behavior parity for the subset and highlighted early performance overhead in the naive decode path, which I will address in later optimization phases after full correctness and integration.
