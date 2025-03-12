@@ -32,3 +32,8 @@ python3 "poc/poc2/poc2_dual_decode_parity.py" \
 
 This is a subset prototype (same family scope as early migration stages).
 
+## If parity fails
+
+Check mismatch kind in output first (count/opcode/args/offset), then inspect the
+corresponding CSV row and immediate encoding rule for that opcode family.
+
