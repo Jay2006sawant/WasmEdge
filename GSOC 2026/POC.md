@@ -178,3 +178,12 @@ Create `GSOC 2026/POC_PLAN_WEEK1.md` with:
 
 This turns the idea into execution.
 
+---
+
+## 8) Quick sanity checklist before sharing
+
+- each POC has a runnable command in README,
+- each POC has a sample input file checked in,
+- each POC prints clear PASS/FAIL-style summary output,
+- consolidated result summary is updated after reruns.
+
