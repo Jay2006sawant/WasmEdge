@@ -42,3 +42,6 @@ This is the bridge between storage parity and runtime parity:
 - If behavior parity fails, split migration is unsafe.
 - If behavior parity passes for covered groups, I can move to broader integration.
 
+Timing output is an early signal only. Correctness parity is the primary goal in
+this stage; performance tuning belongs to later integrated milestones.
+
