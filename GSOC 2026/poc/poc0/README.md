@@ -24,6 +24,10 @@ It gives a **baseline estimate** of instruction memory usage by:
 - `poc0_estimator.py` - estimator script
 - `samples/opcode_frequency_sample.csv` - sample dataset for quick verification
 
+Input CSV format:
+- header: `opcode,count`
+- each row: opcode text and positive integer count
+
 ## Run
 
 From repo root:
